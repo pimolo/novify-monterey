@@ -1,0 +1,199 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Groovy-Baby';
+    src:url('fonts/Groovy-Baby.ttf.woff') format('woff'),
+        url('fonts/Groovy-Baby.ttf.svg#Groovy-Baby') format('svg'),
+        url('fonts/Groovy-Baby.ttf.eot'),
+        url('fonts/Groovy-Baby.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Fonts*/
+
+@font-face {
+    font-family: 'OratorStd';
+    src:url('fonts/OratorStd.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background: url(images/backgroundpropre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    top: 80px;
+}
+
+#wrapper {
+    width: 1025px;
+    margin: 0 auto;
+    background-image: url(images/body.jpg);
+}
+
+header img:first-child {
+    margin-left: -150px;
+    position: absolute;
+    width: 150px;
+}
+
+header img:nth-child(2) {
+    float: right;
+    margin-right: -150px;
+    width: 150px;
+}
+
+header img:nth-child(n+3), section img {
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#lightcircle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #ddf0ef;
+}
+
+#leftcircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #95cacd;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#middlecircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f1be6d;
+    display: inline-block;
+        margin-left: 100px;
+        margin-top: 100px;
+}
+
+#rightcircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #95cacd;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.bluenews {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background-color: #f6d45b;
+    box-shadow: 8px 8px 0px #95cacd;
+    font-family: 'Groovy-Baby';
+    font-size: 20px;
+    color: #95cacd;
+}
+
+.bluenews span {
+    position: absolute;
+    margin: 15px 0 0 10px;
+}
+
+.shape {
+    display: inline-block;
+    margin: 50px 0 0 100px;
+    width: 350px;
+    height: 210px;
+    background-color: #ddf0ef;
+    border: 5px solid #95cacd;
+    border-radius: 10px;
+    font-family: 'OratorStd';
+    font-size: 22px;
+    color: #f1be6d;
+}
+
+/*Navigation*/
+
+.sprite {
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-left: -195px;
+    transition: margin-left 0.5s;
+}
+
+.sprite:hover {
+    margin-left: 0;
+}
+
+.home {
+    background: url("nav.png") -396px -20px no-repeat;
+}
+
+.home:hover {
+    background: url("nav.png") -29px -20px no-repeat;
+}
+
+.news {
+    background: url("nav.png") -396px -110px no-repeat;
+}
+
+.news:hover {
+    background: url("nav.png") -29px -110px no-repeat;
+}
+
+.artists {
+    background: url("nav.png") -396px -200px no-repeat;
+}
+
+.artists:hover {
+    background: url("nav.png") -29px -200px no-repeat;
+}
+
+.programming {
+    background: url("nav.png") -396px -290px no-repeat;
+}
+
+.programming:hover {
+    background: url("nav.png") -29px -290px no-repeat;
+}
+
+.ticket {
+    background: url("nav.png") -396px -380px no-repeat;
+}
+
+.ticket:hover {
+    background: url("nav.png") -29px -380px no-repeat;
+}
+
+.store {
+    background: url("nav.png") -396px -470px no-repeat;
+}
+
+.store:hover {
+    background: url("nav.png") -29px -470px no-repeat;
+}
+
+.ago {
+    background: url("nav.png") -396px -560px no-repeat;
+}
+
+.ago:hover {
+    background: url("nav.png") -29px -560px no-repeat;
+}
