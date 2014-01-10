@@ -108,6 +108,7 @@ section .title {
     font-family: 'Groovy-Baby';
     font-size: 20px;
     color: #95cacd;
+    margin-bottom: 50px;
 }
 
 section .title span {
@@ -155,6 +156,23 @@ section .title span {
     background-color: #95cacd;
     border-radius: 10px;
     box-shadow: 5px 5px 7px #999;
+}
+
+#posters {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#programming img {
+    display: inline-block;
+    width: 200px;
+    border: 10px solid #95cacd ;
+    border-radius: 10px;
+    /*margin-left: 100px;*/
+}
+
+#programming img.middle {
+    margin: 0 50px 0 50px;
 }
 
 /*Navigation*/
