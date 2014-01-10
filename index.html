@@ -9,7 +9,7 @@
 <body>
 
     <div id="wrapper">
-        <header>
+        <header id="home">
             <img src="images/header-left.png" alt="awesome left thing">
             <img src="images/header-right.png" alt="awesome right thing">
             <img src="images/logo.png" alt="logo">
@@ -22,8 +22,8 @@
                 <div id="rightcircle"><div id="lightcircle"></div></div>
             </div>
         </section>
-        <section>
-            <div class="bluenews"><span>News</span></div>
+        <section id="news">
+            <div class="title"><span>News</span></div>
             <div class="row">
                 <div class="shape">Entrance</div>
                 <div class="shape">Parking</div>
@@ -33,16 +33,91 @@
                 <div class="shape">Hôtel - Camping</div>
             </div>
         </section>
+        <section id="artists">
+            <div class="title"><span>Artists 2017</span></div>
+            <div class="button" data-toggle="muse"></div>
+            <div class="button" data-toggle="bs"></div>
+            <div class="button" data-toggle="pf"></div>
+            <div class="button" data-toggle="jm"></div>
+            <div class="button" data-toggle="ds"></div>
+            <div class="button" data-toggle="nj"></div>
+            <div class="button" data-toggle="lg"></div>
+            <div class="button" data-toggle="aa"></div>
+            <div class="button" data-toggle="ja"></div>
+            <div class="artistbox" id="muse">1
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="bs">2
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="pf">3
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="jm">4
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="ds">5
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="nj">6
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="lg">7
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="aa">8
+                <img src="" alt="">
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <div class="artistbox" id="ja">9
+                <img src="" alt="" />
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+            <!-- Fin copie -->
+        </section>
     </div>
     <nav>
-        <a href="#" class="sprite home"></a>
-        <a href="#" class="sprite news"></a>
-        <a href="#" class="sprite artists"></a>
-        <a href="#" class="sprite programming"></a>
-        <a href="#" class="sprite ticket"></a>
-        <a href="#" class="sprite store"></a>
-        <a href="#" class="sprite ago"></a>
+        <a href="#home" class="sprite home"></a>
+        <a href="#news" class="sprite news"></a>
+        <a href="#artists" class="sprite artists"></a>
+        <a href="#programming" class="sprite programming"></a>
+        <a href="#ticket" class="sprite ticket"></a>
+        <a href="#store" class="sprite store"></a>
+        <a href="#ago" class="sprite ago"></a>
     </nav>
     <object width="240" height="250"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="240" height="300"></embed></object>
+     <script type="text/javascript" src="jquery-1.10.2.js" ></script>
+    <script type="text/javascript"> //Pour un scroll lent entre les liens
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+              }, 1000);
+                return false;
+            }
+        }
+    });
+      });
+        </script>
 </body>
 </html>
