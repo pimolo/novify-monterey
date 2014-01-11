@@ -249,7 +249,37 @@ footer img:nth-child(2) {
     width: 447px;
 }
 
+.green {
+    width: 1025px;
+    height: 71px;
+    margin: 0;
+    padding: 0;
+    background-color: #abd8a8;
+}
 
+.yellow {
+    width: 1025px;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc743;
+}
+
+.orange {
+    width: 1025px;
+    height: 82px;
+    margin: 0;
+    padding: 0;
+    background-color: #f37159;
+}
+
+.red {
+    width: 1025px;
+    height: 82px;
+    margin: 0;
+    padding: 0;
+    background-color: #ee3657;
+}
 
 /*Navigation*/
 
