@@ -136,6 +136,14 @@ section .title span {
     background-color: #ddf0ef;
     display: inline-block;
     margin: 5px 3px 0 3px;
+    box-shadow: ;
+}
+
+.button span {
+    font-family: 'OratorStd';
+    font-size: 23px;
+    color: #95cacd;
+    margin: auto;
 }
 
 .artistbox {
@@ -149,13 +157,21 @@ section .title span {
 }
 
 .info {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 370px;
+    padding: 5px;
     width: 400px;
-    height: 120px;
+    height: 140px;
     background-color: #95cacd;
     border-radius: 10px;
     box-shadow: 5px 5px 7px #999;
+}
+
+.info p {
+    margin-top: 0px;
+    font-family: 'OratorStd';
+    font-size: 15px;
+    color: #ddf0ef;
 }
 
 #posters {
@@ -168,10 +184,13 @@ section .title span {
     width: 200px;
     border: 10px solid #95cacd ;
     border-radius: 10px;
-    /*margin-left: 100px;*/
 }
 
-#programming img.middle {
+#programming #posters img {
+    box-shadow: 0 0 20px #999;
+}
+
+#programming #posters img.middle {
     margin: 0 50px 0 50px;
 }
 
@@ -184,7 +203,7 @@ section .title span {
     border: 5px solid #95cacd;
     border-radius: 10px;
     font-family: 'OratorStd';
-    font-size: 22px;
+    font-size: 42px;
     color: #f1be6d;
 }
 
@@ -202,6 +221,16 @@ section .title span {
     display: inline-block;
     margin: 0 25px 0 25px;
     box-shadow: 3px 5px 8px #999;
+}
+
+#store .circle img.mug {
+    width: 150px;
+    margin: 15px 25px 0 0;
+}
+
+#store .circle img.tshirt {
+    width: 150px;
+    margin-top: 10px;
 }
 
 /*Caroussel*/
@@ -237,50 +266,57 @@ section .title span {
 
 /*Fin caroussel*/
 
-footer img:first-child {
-    margin-left: -447px;
-    position: absolute;
-    width: 447px;
+/*Footer*/
+footer{
+    margin-top:10px;
+    margin-bottom: 0px;
+    text-align:center;
 }
-
-footer img:nth-child(2) {
+/*liens*/
+.lien-footer{
+    width:100%;
+    font-family: 'Orator Std';
+    text-decoration: none;
+}
+.lien-footer a{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+}
+.lien-footer a:hover{
+    text-shadow:  1px 1px 12px black;
+    text-decoration: none;
+}
+.f-1{
+    background-color: rgb(155,192,149);
+    height:79px;
+}
+.f-2{
+    background-color: rgb(189,183,61);
+    height:82px;
+}
+.f-3{
+    background-color: rgb(226,104,80);
+    height:90px;
+}
+.f-4{
+    background-color: rgb(220,50,77);
+    height:86px;
+}
+/*Images*/
+footer .img-f-right{
+    width:500px;
     float: right;
-    margin-right: -447px;
-    width: 447px;
+    margin-right: -500px;
 }
 
-.green {
-    width: 1025px;
-    height: 71px;
-    margin: 0;
-    padding: 0;
-    background-color: #abd8a8;
+footer .img-f-left{
+    margin-top:-1px;
+    width:500px;
+    float: left;
+    margin-left: -1012px;
+    position: absolute;
 }
-
-.yellow {
-    width: 1025px;
-    height: 72px;
-    margin: 0;
-    padding: 0;
-    background-color: #ccc743;
-}
-
-.orange {
-    width: 1025px;
-    height: 82px;
-    margin: 0;
-    padding: 0;
-    background-color: #f37159;
-}
-
-.red {
-    width: 1025px;
-    height: 82px;
-    margin: 0;
-    padding: 0;
-    background-color: #ee3657;
-}
-
 /*Navigation*/
 
 .sprite {

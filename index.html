@@ -36,15 +36,15 @@
         </section>
         <section id="artists">
             <div class="title"><span>Artists 2017</span></div>
-            <div class="button" data-toggle="muse"></div>
-            <div class="button" data-toggle="bs"></div>
-            <div class="button" data-toggle="pf"></div>
-            <div class="button" data-toggle="jm"></div>
-            <div class="button" data-toggle="ds"></div>
-            <div class="button" data-toggle="nj"></div>
-            <div class="button" data-toggle="lg"></div>
-            <div class="button" data-toggle="aa"></div>
-            <div class="button" data-toggle="ja"></div>
+            <div class="button" data-toggle="muse"><span>Muse</span></div>
+            <div class="button" data-toggle="bs"><span>Bruce</span><br /><span>Springsteen</span></div>
+            <div class="button" data-toggle="pf"><span>Pink<br />Floyd</span></div>
+            <div class="button" data-toggle="jm"><span>John<br />Mayer</span></div>
+            <div class="button" data-toggle="ds"><span>Dire</span><br/><span>Straits</span></div>
+            <div class="button" data-toggle="nj"><span>Norah<br />Jones</span></div>
+            <div class="button" data-toggle="lg"><span>London<br />Grammar</span></div>
+            <div class="button" data-toggle="aa"><span>Asaf<br />Avidan</span></div>
+            <div class="button" data-toggle="ja"><span>James<br />Arthur</span></div>
             <div class="artistbox" id="muse">1
                 <img src="" alt="">
                 <div class="info">
@@ -140,10 +140,10 @@
         <section id="store">
             <div class="title"><span>Store</span></div>
             <div class="circlewrapper">
-                <div class="circle"><img src="images/" alt=""></div>
-                <div class="circle"><img src="images/" alt=""></div>
-                <div class="circle"><img src="images/" alt=""></div>
-                <div class="circle"><img src="images/" alt=""></div>
+                <div class="circle"><img src="images/mug.png" alt="mug" class="mug" /></div>
+                <div class="circle"><img src="images/tshirt.png" alt="tshirt" class="tshirt" /></div>
+                <div class="circle"><img src="images/" alt="" /></div>
+                <div class="circle"><img src="images/" alt="" /></div>
             </div>
 
         </section>
@@ -161,13 +161,15 @@
             <object width="240" height="250"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://staticradionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="240" height="300"></embed></object>
         </section>
         <footer>
-            <img src="images/footer-left.png" alt="awesome left footer">
-            <img src="images/footer-right.png" alt="awesome right footer">
-            <div class="green"></div>
-            <div class="yellow"></div>
-            <div class="orange"></div>
-            <div class="red"></div>
-        </footer>
+        <img class="img-f-left" src="images/footer-left.png"/>
+        <img class="img-f-right" src="images/footer-right.png"/>
+        <div class="lien-footer">
+            <div class="f-1"><a href="">Plan du site</a></div>
+            <div class="f-2"><a href="">Réseaux Sociaux</a></div>
+            <div class="f-3"><a href="">Nous Contacter</a></div>
+            <div class="f-4"><a href="">Agence Novify</a></div>
+        </div>
+    </footer>
     </div>
     <nav>
         <a href="#home" class="sprite home"></a>
@@ -183,19 +185,19 @@
     <script type="text/javascript" src="script.js" ></script>
     <script type="text/javascript"> //Pour un scroll lent entre les liens
         $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top
-              }, 1000);
-                return false;
-            }
-        }
-    });
-      });
-        </script>
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
