@@ -17,6 +17,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Stencil Std';
+    src:url('fonts/StencilStd.otf') format('otf');
+}
+
 html, body {
     margin: 0;
 }
@@ -36,7 +41,7 @@ nav {
 #wrapper {
     width: 1025px;
     margin: 0 auto;
-    background-image: url(images/body.jpg);
+    background-image: url(images/newbody.jpg);
 }
 
 header img:first-child {
@@ -51,7 +56,7 @@ header img:nth-child(2) {
     width: 150px;
 }
 
-header img:nth-child(n+3), section img {
+header img:nth-child(n+3) {
     display: block;
     margin: 0 auto;
 }
@@ -116,6 +121,12 @@ section .title span {
     margin: 15px 0 0 10px;
 }
 
+section .title img {
+    float: right;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+
 .shape {
     display: inline-block;
     margin: 50px 0 0 100px;
@@ -136,14 +147,13 @@ section .title span {
     background-color: #ddf0ef;
     display: inline-block;
     margin: 5px 3px 0 3px;
-    box-shadow: ;
+    cursor: pointer;
 }
 
 .button span {
     font-family: 'OratorStd';
     font-size: 23px;
     color: #95cacd;
-    margin: auto;
 }
 
 .artistbox {
@@ -174,19 +184,26 @@ section .title span {
     color: #ddf0ef;
 }
 
+.artistbox img {
+    width: 300px;
+    position: absolute;
+    margin: 80px 0 0 30px;
+}
+
+.artistbox .info audio {
+    margin: 50px;
+}
+
 #posters {
     width: 800px;
     margin: 0 auto;
 }
 
-#programming img {
+#programming #posters img {
     display: inline-block;
     width: 200px;
     border: 10px solid #95cacd ;
     border-radius: 10px;
-}
-
-#programming #posters img {
     box-shadow: 0 0 20px #999;
 }
 
@@ -194,6 +211,47 @@ section .title span {
     margin: 0 50px 0 50px;
 }
 
+#ticket #ticketimg {
+    font-family: 'Stencil Std';
+    font-size: 40px;
+    background-image: url('images/ticket.png');
+    width: 822px;
+    height: 344px;
+    margin: 0 auto;
+}
+.a {
+    position: absolute;
+    margin: 135px 0 0 145px;
+    color: #f0551b;
+}
+
+.b {
+    position: absolute;
+    margin: 135px 0 0 305px;
+    color: #f0551b;
+}
+.c {
+    position: absolute;
+    margin: 250px 0 0 145px;
+    color: #f0551b;
+}
+.d {
+    position: absolute;
+    margin: 250px 0 0 305px;
+    color: #f0551b;
+}
+.e {
+    position: absolute;
+    margin: 180px 0 0 470px;
+    color: #f0551b;
+}
+
+#ticket #ticketimg span:hover {
+    color: #c73814;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #c73814;
+    -webkit-transform: scale(1.05);
+}
 .longshape {
     display: inline-block;
     margin: 50px 0 0 100px;
@@ -230,7 +288,17 @@ section .title span {
 
 #store .circle img.tshirt {
     width: 150px;
-    margin-top: 10px;
+    margin: 15px 0 0 15px;
+}
+
+#store .circle img.badge {
+    width: 150px;
+    margin: 15px 0 0 15px;
+}
+
+#store .circle img.poster {
+    height: 150px;
+    margin: 15px 0 0 35px;
 }
 
 /*Caroussel*/
