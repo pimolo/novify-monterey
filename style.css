@@ -386,9 +386,9 @@ footer .img-f-left{
 .ago:hover {
     background: url("nav.png") -29px -560px no-repeat;
 }
-object {
-    position: absolute;
-    margin:0 auto;
-    margin-left: 775px;
-    padding: 35px;
+.radio {
+    margin-left: 610px;
+    margin-top: 40px;
+    
+
 }
