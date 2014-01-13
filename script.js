@@ -43,3 +43,9 @@ $(document).ready(function() {
         console.log(currentImg);
     });
 });
+
+$(document).ready(function() {
+    $('#ticket #ticketimg span').click(function() {
+
+    });
+});
