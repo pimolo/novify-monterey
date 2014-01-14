@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+    <channel>
+	<title>Monterey Pop Festival's 50th birthday</title>
+	<link>195.83.128.55/~mmi13a02/novify/monterey/officiel/index.html</link>
+	<description>Les news du site du Festival pop de Monterey</description>
+	 
+	 <item>
+	     <title>Enfin un flux RSS !</title>
+	     <link>195.83.128.55/~mmi13a02/novify/monterey/officiel/news.xml</link>
+	     <guid isPermaLink="true">1er article</guid>
+	     <description>Un flux RSS a été installé sur le site du festival. Vous pouvez le consulter avec votre lecteur de flux RSS favori.</description>
+	     <pubDate>Wed, 3 Aug 2005 15:17:00 GMT</pubDate>
+												            </item>
+													</channel>
+</rss>
+
