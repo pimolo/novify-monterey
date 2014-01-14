@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-     <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+   <!-- <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>-->
+    <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
      <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
 </head>
 <body>
@@ -224,7 +225,7 @@
             });
         });
     </script>
-    <script type="text/javascript">
+   <!--<script type="text/javascript">
       // override Highslide settings here
       // instead of editing the highslide.js file
     hs.graphicsDir = 'highslide/graphics/';
@@ -234,6 +235,11 @@
     hs.fadeInOut = true;
     hs.numberPosition = 'caption';
     hs.dimmingOpacity = 0.75;
+</script>-->
+    <script type="text/javascript">
+	hs.graphicsDir = 'highslide/graphics/';
+	hs.outlineType = 'rounded-white';
+	hs.wrapperClassName = 'draggable-header';
     </script>
 </body>
 </html>
