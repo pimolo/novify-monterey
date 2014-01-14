@@ -29,7 +29,7 @@ $(document).ready(function() {
 
     $('.right').click(function() { // ce qui se passe si on clique sur la flèche de droite
         if (i>=2) {i=0;} else {i++};
-        $('img').fadeOut();
+        img.fadeOut();
         currentImg = img.eq(i);
         currentImg.fadeIn();
         console.log(currentImg);
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     $('.left').click(function() { // ce qui se passe si on clique sur la flèche de gauche
         if (i<=0) {i=2;} else {i--}; // on veut l'image précédente d'où le i--
-        $('img').fadeOut();
+        img.fadeOut();
         currentImg = img.eq(i);
         currentImg.fadeIn();
         console.log(currentImg);
