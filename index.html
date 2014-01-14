@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Monterey Pop Festival's 50th birthday</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-     <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+   <!-- <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>-->
+    <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
      <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
 </head>
 <body>
@@ -140,7 +141,8 @@
                 <span class="d" title="Click to buy it !">2 DAYS</span>
                 <span class="e" title="Click to buy it !">3 DAYS</span>
             </div>
-            <div class="row">
+<!--             <img src="images/ticket.png" alt="buy a ticket"> Plutôt à mettre en bg d'une div, pour faciliter le placement du texte
+ -->            <div class="row">
                 <div class="shape">Price</div>
                 <div class="shape">Buy a ticket</div>
             </div>
@@ -151,8 +153,8 @@
             <div class="circlewrapper">
                 <div class="circle"><a href="images/mug.png" class="highslide" onclick="return hs.expand(this)"><img src="images/mug.png" alt="mug" class="mug" /></a></div>
                 <div class="circle"><a href="images/tshirt.png" class="highslide" onclick="return hs.expand(this)"><img src="images/tshirt.png" alt="tshirt" class="tshirt" /></a></div>
-                <div class="circle"><a href="images/badge.png" class="highslide" onclick="return hs.expand(this)"><img src="images/badge.png" alt="badge" class="badge" /></a></div>
-                <div class="circle"><a href="images/storeposter.png" class="highslide" onclick="return hs.expand(this)"><img src="images/storeposter.png" alt="poster" class="poster" /></a></div>
+                <div class="circle"><img src="images/badge.png" alt="badge" class="badge" /></div>
+                <div class="circle"><img src="images/storeposter.png" alt="poster" class="poster" /></div>
             </div>
 
         </section>
@@ -167,8 +169,9 @@
                 <i class="fa fa-chevron-circle-left left"></i>
                 <i class="fa fa-chevron-circle-right right"></i>
             </div>
-            <div class="radio"><object width="240" height="250"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="400" height="140"></embed></object></div>
-        </section>
+	    <div class="radio"> <object width="240" height="250"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="400" height="140"></embed></object></div>
+	<div class="video"><object width="560" height="315"><param name="movie" value="//www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
+	</section>
         <footer>
         <img class="img-f-left" src="images/footer-left.png"/>
         <img class="img-f-right" src="images/footer-right.png"/>
@@ -208,7 +211,7 @@
             });
         });
     </script>
-    <script type="text/javascript">
+   <!--<script type="text/javascript">
       // override Highslide settings here
       // instead of editing the highslide.js file
     hs.graphicsDir = 'highslide/graphics/';
@@ -218,6 +221,11 @@
     hs.fadeInOut = true;
     hs.numberPosition = 'caption';
     hs.dimmingOpacity = 0.75;
+</script>-->
+    <script type="text/javascript">
+	hs.graphicsDir = 'highslide/graphics/';
+	hs.outlineType = 'rounded-white';
+	hs.wrapperClassName = 'draggable-header';
     </script>
 </body>
 </html>
