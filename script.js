@@ -43,3 +43,30 @@ $(document).ready(function() {
         console.log(currentImg);
     });
 });
+
+$(document).ready(function() {
+    $('#ticket #ticketimg span.a').click(function() {
+        $('form #temps').append('1 DAY');
+        $('form #prix').append('50$');
+    });
+
+    $('#ticket #ticketimg span.b').click(function() {
+        $('form #temps').append('2 DAY');
+        $('form #prix').append('80$');
+    });
+
+    $('#ticket #ticketimg span.c').click(function() {
+        $('form #temps').append('1 DAY');
+        $('form #prix').append('42$');
+    });
+
+    $('#ticket #ticketimg span.d').click(function() {
+        $('form #temps').append('2 DAY');
+        $('form #prix').append('90$');
+    });
+
+    $('#ticket #ticketimg span.e').click(function() {
+        $('form #temps').append('1 DAY');
+        $('form #prix').append('100$');
+    });
+});
