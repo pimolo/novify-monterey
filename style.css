@@ -153,19 +153,33 @@ section .title img {
 }
 
 .button {
-    width: 90px;
-    height: 50px;
+    width: 145px;
+    height: 60px;
     border-radius: 5px;
     background-color: #ddf0ef;
     display: inline-block;
-    margin: 5px 3px 0 3px;
+    margin-right: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 .button span {
     font-family: 'OratorStd';
     font-size: 23px;
     color: #95cacd;
+}
+
+.ligne1 {
+    width: 785px;
+    height: 61px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.ligne2 {
+    width: 640px;
+    height: 61px;
+    margin: 0 auto;
 }
 
 .artistbox {
