@@ -157,8 +157,8 @@ section .title img {
     color: #f1be6d;
 }
 .sentences {
-    display: inline-block;
-    margin: 10px 0 0 10px;
+    display: block;
+    margin: 47px 0 0 10px;
     width: 400px;
     height: 70px;
     background-color: #ddf0ef;
@@ -167,6 +167,13 @@ section .title img {
     font-family: 'OratorStd';
     font-size: 22px;
     color: #f1be6d;
+}
+
+.block {
+    width: 100px;
+    height: 70px;
+    margin-left: 550px;
+    margin-top: -385px;
 }
 
 .button {
@@ -524,7 +531,7 @@ footer .img-f-left{
 .abonnement {
     font-family: 'Oratori Std';
     color: #F19D17;
-    margin-top: 50px;
+    margin-top: 310px;
     margin-left: 20px;
 }
 
