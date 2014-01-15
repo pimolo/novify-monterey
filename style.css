@@ -74,34 +74,51 @@ section {
     background-color: #ddf0ef;
 }
 
+.newstext {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    width: 160px;
+}
+
 #leftcircle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #95cacd;
     display: inline-block;
+    text-align: center;
     margin-left: 100px;
     margin-top: 100px;
+    background-color: #95cacd;
 }
 
 #middlecircle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #f1be6d;
     display: inline-block;
-        margin-left: 100px;
-        margin-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #f1be6d;
+}
+
+#middlecircle img {
+    margin-top: 30px;
+    width: 180px;
+    border-radius: 100%;
+    display: inline-block;
 }
 
 #rightcircle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #95cacd;
     display: inline-block;
+    text-align: center;
     margin-left: 100px;
     margin-top: 100px;
+    background-color: #95cacd;
 }
 
 section .title {
@@ -386,6 +403,7 @@ footer{
     font-size: 30px;
     color:white;
     text-decoration: none;
+    padding-top: 30px;
 }
 .lien-footer a:hover{
     text-shadow:  1px 1px 12px black;
@@ -427,7 +445,7 @@ footer .img-f-left{
     display: block;
     width: 180px;
     height: 55px;
-    margin-left: -95px;
+    margin-left: -115px;
     transition: margin-left 0.5s;
 }
 
