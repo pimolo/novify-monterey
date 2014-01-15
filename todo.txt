@@ -1,10 +1,10 @@
 - Images caroussel DONE
 - Pictos bandes titres DONE
 - Nav À PEAUFINER
-- Bug scroll à cause de l'image de droite du footer
+- Bug scroll à cause de l'image de droite du footer (trop de mal)
 - Cadres du haut
 - Liens footer (y compris pictos RS)
-- Mettre en forme les boutons d'onglets
+- Mettre en forme les boutons d'onglets Gaëtan EN COURS
 - Mettre en forme le RSS
 - Cercles du haut à remplir
 - Écrire quelque chose tout en haut qui invite à scroll
@@ -12,5 +12,6 @@
 - Partenaires
 - Légendes
 - Affordance pour le ticket
+- Formulaire Rose-Nam EN COURS
 
 !!!!!!!!! FAIRE UN COMMIT ?? !!!!!!!!!!!!
