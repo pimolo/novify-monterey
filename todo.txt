@@ -1,0 +1,15 @@
+- Images caroussel
+- Pictos bandes titres
+- Nav
+- Bug scroll à cause de l'image de droite du footer
+- Cadres du haut
+- Liens footer (y compris pictos RS)
+- Mettre en forme les boutons d'onglets
+- Mettre en forme le RSS
+- Cercles du haut à remplir
+- Écrire quelque chose tout en haut qui invite à scroll
+- Nuage de mots-clés ? (tagcloud)
+- Partenaires
+- Légendes
+
+!!!!!!!!! FAIRE UN COMMIT ?? !!!!!!!!!!!!
