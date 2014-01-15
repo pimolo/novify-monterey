@@ -1,6 +1,6 @@
-- Images caroussel
-- Pictos bandes titres
-- Nav
+- Images caroussel DONE
+- Pictos bandes titres DONE
+- Nav À PEAUFINER
 - Bug scroll à cause de l'image de droite du footer
 - Cadres du haut
 - Liens footer (y compris pictos RS)
@@ -11,5 +11,6 @@
 - Nuage de mots-clés ? (tagcloud)
 - Partenaires
 - Légendes
+- Affordance pour le ticket
 
 !!!!!!!!! FAIRE UN COMMIT ?? !!!!!!!!!!!!
