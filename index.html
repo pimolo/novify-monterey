@@ -5,7 +5,7 @@
     <title>Monterey Pop Festival's 50th birthday</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
     <!-- <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>-->
     <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
     <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
@@ -15,33 +15,34 @@
 
     <div id="wrapper">
         <header id="home">
-            <img src="images/header-left.png" alt="awesome left thing">
-            <img src="images/header-right.png" alt="awesome right thing">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/header-left.png" alt="awesome left thing" />
+            <img src="images/header-right.png" alt="awesome right thing" />
+            <img src="images/logo.png" alt="logo" />
         </header>
-        <section>
-            <img src="images/banniere.png" alt="banniere" />
+            <img src="images/banniere.png" alt="banniere" class="banniere" />
             <div id="cercles">
                 <div id="leftcircle"><span class="newstext">Monterey<br />Pop Music Festival was a three-day concert event held in 1967 in Monterey, California.</span></div>
-                <div id="middlecircle"><span class="newstext">The artists performed for free with all revenue donated to charity.</span></div>
-                <div id="rightcircle"><span class="newstext">The festival is remembered for the first major American appearances by Jimi Hendrix, The Who and Ravi Shankar.</span></div>
+                <div id="middlecircle"><span class="newstext">The artists performed for free with all revenue donated to charity, except for Ravi Shankar.</span></div>
+                <div id="rightcircle"><span class="newstext">The festival is remembered for the first major appearances by Jimi Hendrix, The Who and Ravi Shankar.</span></div>
             </div>
-        </section>
         <section id="news">
             <div class="title"><span>News</span><img src="images/info.png" alt=""></div>
             <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6406.653063127158!2d-121.862778!3d36.594444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zKzM2wrAzNSc0MC4wMCIsIC0xMjHCsDUxJzQ2LjAwIg!5e0!3m2!1sfr!2s!4v1389789827865" width="400" height="300" frameborder="0" style="border:0"></iframe></div>
             <div class="block">
                 <div class="sentences"><span>Parking</span><p>Opens at 12:00 p.m to 12:00 a.m<br />20 000 parking spots !<br />Reserve a parking spot, call 555 678 !</p></div>
                 <div class="sentences"><span>Restoration</span><p>More than 50 stands open 24/7 !<br />A dozen restaurants less than 1 mile away !</p></div>
-                <div class="sentences"><span>Hôtel - Camping</span><p>5000 camping spots near the festival ! <br />Reserve a spot, call 555 678 !<br />More than 50 hotels : www.hotels.com</p></div>
+                <div class="sentences"><span>Hôtel - Camping</span><p>5000 camping spots near the festival ! <br />Reserve a spot, call 555 678 !<br />More than 50 hotels : <a href="http://www.hotels.com">hotels.com</a></p></div>
             </div>
             <div class="abonnement">
-            <p>All our latest news delivered in your inbox!<br />Subscribe to our newsletter</p>
-            <form>
-            <input type="text" placeholder="Your email address" size="40" maxlength="40" />
-            <input type="submit" value="Subscribe" class="subscribe" />
-            </form>
-            <p>Get updates informations about the festival by subscribing to our RSS feeds!<a href="news.xml"><img src="images/rss.png" alt="rss" width="30px" /></a></p>
+            <div id="newsletter">
+                <p>All our latest news delivered in your inbox!<br />Subscribe to our newsletter</p>
+                <form>
+                <input type="text" placeholder="Your email address" size="40" maxlength="40" />
+                <input type="submit" value="Subscribe" class="subscribe" />
+                </form>
+            </div>
+
+            <p class="rss">Get updates informations about the festival by subscribing to our RSS feeds!<a href="news.xml"><img src="images/rss.png" alt="rss" width="30px" /></a></p>
             </div>
         </section>
         <section id="artists">
@@ -55,14 +56,11 @@
                 <div class="button" data-toggle="pf"><span>Pink<br />Floyd</span></div>
                 <div class="button" data-toggle="jm"><span>John<br />Mayer</span></div>
                 <div class="button" data-toggle="ds"><span>Dire</span><br/><span>Straits</span></div>
-                <div class="button" data-toggle="muse"><span>Muse<br />__________</span></div></div>
+                <div class="button" data-toggle="muse"><span>Muse<br />&nbsp</span></div></div>
                 <div class="artistbox" id="muse">
                 <img src="images/muse.jpg" alt="muse">
                 <div class="info">
-                    <p>Muse are an English rock band from Teignmouth, Devon formed in 1994</p>
-                    <p>Matthew Bellamy as lead vocals, lead guitar, piano, keyboards, keytar
-                    Christopher wolstenholme, bass, vocals, keyboards, Misa Kitara, harmonica
-                    Dominic Howard, drums, percussion, synthesizers</p>
+                    <p>Muse are an English rock band from Teignmouth, Devon formed in 1994 by <br />Matthew Bellamy, Christopher Wolstenholme and Dominic Howard.</p>
                 </div>
                 <div class="info"><audio src="musics/muse.mp3" controls preload="none"></audio></div>
             </div>
@@ -92,9 +90,8 @@
             <div class="artistbox" id="ds">
                 <img src="images/ds.jpg" alt="ds" />
                 <div class="info">
-                    <p>Dire Straits were a British rock band, formed in 1977 by Mark Knopfler (lead vocals and lead guitar), his younger brother David Knopfler (rhythm guitar and backing vocals),<br />
-                    John Illsley (bass guitar and backing vocals), and
-		    Pick Withers (drums and percussion). They’re reuniting to celebrate the festival’s 50’ anniversary.</p>
+                    <p>Dire Straits were a British rock band, formed in 1977 by Mark Knopfler, his younger brother David Knopfler, John Illsley, and
+		    Pick Withers. They’re reuniting to celebrate the festival’s 50’ anniversary.</p>
                 </div>
                 <div class="info"><audio src="musics/ds.mp3" controls preload="none"></audio></div>
             </div>
@@ -139,8 +136,9 @@
             </div>
         </section>
         <section id="ticket">
-	<div class="title"><span>Ticket office</span><img src="images/tags.png" alt=""></div>
-	<div class="form">
+            <div class="title"><span>Ticket office</span><img src="images/tags.png" alt=""></div>
+            <div class="longshape top">Make your choice and click on to buy it !</div>
+            <div class="form">
 	     <div class="information">
 		<div class="titre">
 	         Information de facturation
@@ -153,15 +151,17 @@
 	    <div class="titre">
 	        Payer par carte bancaire <br />
 	    </div>
-	        Country : <select name="pays">
+	        <!-- Country : <select name="pays">
 	        <option value="1">pays 1</option>
 	        <option value="2">pays 2</option>
 	        <option value="3">pays 3</option>
-		        </select><br />
+		        </select><br /> -->
+                    <span id="temps"></span>
+                    <span id="prix"></span><br />
 	        Type de paiement :
-	        <input type="radio" name="carte"/><img src="picto-1.png"/>
-	        <input type="radio" name="carte"/><img src="picto-2.png"/>
-	        <input type="radio" name="carte"/><img src="picto-3.png"/><br />
+	        <input type="radio" id="mc"/><label for="mc"><img src="picto-1.png"/></label>
+	        <input type="radio" id="pp"/><label for="pp"><img src="picto-2.png"/></label>
+	        <input type="radio" id="visa"/><label for="visa"><img src="picto-3.png"/></label><br />
                 Numéro de carte : <input type="text" name="numero-carte"><br />
 	        Cryptogramme visuel : <input type="text" name="crypto"><br />
 	        Date d'expiration : <input type="text" name="date"> / <input type="text" name="date"><br />
@@ -176,7 +176,7 @@
                 <span class="d" title="Click to buy it !">2 DAYS</span>
                 <span class="e" title="Click to buy it !">3 DAYS</span>
             </div>
-            <div class="longshape">You've lost your ticket ? Call 555 678 !</div>
+            <div class="longshape bottom">You've lost your ticket ? Call 555 678 !</div>
         </section>
         <section id="store">
             <div class="title"><span>Store</span><img src="images/cart.png" alt=""></div>
@@ -214,7 +214,7 @@
                     <a href="#"><img src="images/youtube.png" width="60px" height="60px"></a>
                     <a href="#"><img src="images/vimeo.png" width="60px" height="60px"></a></div>
                 <div class="f-2"><a href="#">Contact us</a></div>
-                <div class="f-3"><a href="#">Our Agency</a></div>
+                <div class="f-3"><a href="http://195.83.128.55/~mmi13a03/novify/accueil.html">Our Agency</a></div>
                 <div class="f-4">
                     <a href="#"><img src="images/mtv.png"></a>
                     <a href="#"><img src="images/deezer.png"></a>

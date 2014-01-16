@@ -71,7 +71,7 @@ $(document).ready(function() {
     });
 
     $('#ticket #ticketimg span.b').click(function() {
-        $('#ticket .form #temps').html('2 DAY');
+        $('#ticket .form #temps').html('2 DAYS');
         $('#ticket .form #prix').html('80$');
     });
 
@@ -81,7 +81,7 @@ $(document).ready(function() {
     });
 
     $('#ticket #ticketimg span.d').click(function() {
-        $('#ticket .form #temps').html('2 DAY');
+        $('#ticket .form #temps').html('2 DAYS');
         $('#ticket .form #prix').html('90$');
     });
 

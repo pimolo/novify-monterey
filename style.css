@@ -60,16 +60,25 @@ header img:nth-child(2) {
     width: 150px;
 }
 
-header img:nth-child(n+3) {
+header img:last-child {
     display: block;
     margin: 0 auto;
-    padding-top: 30px;
 }
 
 section {
     display: block;
     margin: 0 auto;
     margin-top: 100px;
+}
+
+.banniere {
+    margin-top: 30px;
+}
+
+#cercles {
+    width: 910px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 #lightcircle {
@@ -81,14 +90,14 @@ section {
 
 .newstext {
     display: inline-block;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     padding-top: 30px;
     width: 180px;
     color: white;
     font-family: 'Groovy-Baby';
     font-size: 16px;
     line-height: 22px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.8px;
 }
 
 #leftcircle {
@@ -97,9 +106,10 @@ section {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    /*margin-left: 100px;*/
     background-color: #95cacd;
+    vertical-align: middle;
+    margin: 0 50px 0 50px;
 }
 
 #middlecircle {
@@ -108,16 +118,10 @@ section {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    /*margin-left: 100px;*/
     background-color: #f1be6d;
-}
-
-#middlecircle img {
-    margin-top: 10px;
-    width: 180px;
-    border-radius: 100%;
-    display: inline-block;
+    vertical-align: middle;
+    margin: 0 50px 0 50px;
 }
 
 #rightcircle {
@@ -126,9 +130,10 @@ section {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    /*margin-left: 100px;*/
     background-color: #95cacd;
+    vertical-align: middle;
+    margin: 0 50px 0 50px;
 }
 
 section .title {
@@ -139,13 +144,13 @@ section .title {
     box-shadow: 8px 8px 0px #95cacd;
     font-family: 'Groovy-Baby';
     font-size: 28px;
-    color: #95cacd;
     margin-bottom: 50px;
 }
 
 section .title span {
     position: absolute;
-    margin: 15px 0 0 10px;
+    margin: 15px 0 0 50px;
+    color: #82b3b6;
 }
 
 section .title img {
@@ -167,32 +172,6 @@ section .title img {
     color: #f1be6d;
 }
 
-.sentences {
-    display: block;
-    margin: 37px 0 0 10px;
-    width: 400px;
-    height: 80px;
-    background-color: #ddf0ef;
-    border: 5px solid #95cacd;
-    border-radius: 10px;
-    font-family: 'OratorStd';
-    font-size: 22px;
-    color: #f1be6d;
-}
-
-.abonnement {
-    font-family: 'Orator Std';
-    width: 500px;
-    margin-top: 310px;
-    margin-left: 70px;
-    font-size: 16px;
-}
-
-.subscribe {
-    background-color: orange;
-    color: white;
-}
-
 .block {
     width: 100px;
     height: 70px;
@@ -200,20 +179,59 @@ section .title img {
     margin-top: -385px;
 }
 
-
 .block p {
     font-family: 'LetterGothicStd';
     font-size: 12pt;
     margin-top: 0;
 }
 
+.sentences {
+    display: block;
+    margin: 30px 0 0 10px;
+    width: 400px;
+    height: 90px;
+    background-color: #ddf0ef;
+    border: 5px solid #95cacd;
+    border-radius: 10px;
+    font-family: 'OratorStd';
+    font-size: 22px;
+    /*color: #f1be6d;*/
+    color: rgb(174, 85, 65);
+}
+
+.abonnement {
+    font-family: 'Orator Std';
+    width: 910px;
+    margin: 0 auto;
+    margin-top: 310px;
+    font-size: 16px;
+    color: rgb(174, 85, 65);
+}
+
+#newsletter {
+    width: 450px;
+    display: inline-block;
+}
+
+.subscribe {
+    background-color: orange;
+    color: white;
+}
+
+.rss {
+    width: 430px;
+    display: inline-block;
+    float: right;
+}
+
 .button {
     width: 145px;
     height: 60px;
+    box-shadow: 1px 1px 10px #999;
     border-radius: 10%;
     background-color: #ddf0ef;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
     cursor: pointer;
     text-align: center;
 }
@@ -222,11 +240,10 @@ section .title img {
     font-family: 'OratorStd';
     font-size: 23px;
     color: #95cacd;
-    padding-top: 5px;
 }
 
 .ligne1 {
-    width: 785px;
+    width: 800px;
     height: 61px;
     margin: 0 auto;
     margin-top: 20px;
@@ -270,6 +287,7 @@ section .title img {
     width: 300px;
     position: absolute;
     margin: 80px 0 0 30px;
+    box-shadow: 0 0 22px #111;
 }
 
 .artistbox .info audio {
@@ -311,7 +329,6 @@ section .title img {
     z-index: 1;
 }
 
-
 .titre {
     width: 300px;
     height: 40px;
@@ -342,7 +359,7 @@ section .title img {
 
 .b {
     position: absolute;
-    margin: 135px 0 0 305px;
+    margin: 135px 0 0 290px;
     color: #f0551b;
 }
 .c {
@@ -352,12 +369,12 @@ section .title img {
 }
 .d {
     position: absolute;
-    margin: 250px 0 0 305px;
+    margin: 250px 0 0 290px;
     color: #f0551b;
 }
 .e {
     position: absolute;
-    margin: 180px 0 0 470px;
+    margin: 185px 0 0 490px;
     color: #f0551b;
 }
 
@@ -368,8 +385,7 @@ section .title img {
     -webkit-transform: scale(1.05);
 }
 .longshape {
-    display: inline-block;
-    margin: 50px 0 0 100px;
+    margin: 0 auto;
     width: 815px;
     height: 50px;
     background-color: #ddf0ef;
@@ -380,6 +396,14 @@ section .title img {
     color: #f1be6d;
     padding-top: 20px;
     text-align: center;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+.bottom {
+    margin-top: 50px;
 }
 
 .circlewrapper {
