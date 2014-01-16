@@ -46,40 +46,40 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#ticket #ticketimg span').click(function() {
-        if ($('#ticket form').css("margin-top") >= "300px") {
-            $('#ticket form').css("margin-top", "100px");
+        if ($('#ticket .form').css("margin-top") >= "300px") {
+            $('#ticket .form').css("margin-top", "100px");
         };
 
         if ($(this).parent().css("margin-bottom") === "300px") {
             $(this).parent().css("margin-bottom", "0");
         };
 
-        $('#ticket form').animate({"margin-top": "+=300"}, "fast");
+        $('#ticket .form').animate({"margin-top": "+=300"}, "fast");
         $(this).parent().animate({"margin-bottom": "+=300px"}, "fast");
     });
 // voir pour conditionner plutôt ces 2 dernières lignes, cela éviterait de faire descendre à chaque fois
     $('#ticket #ticketimg span.a').click(function() {
-        $('#ticket form #temps').html('1 DAY');
-        $('#ticket form #prix').html('50$');
+        $('#ticket .form #temps').html('1 DAY');
+        $('#ticket .form #prix').html('50$');
     });
 
     $('#ticket #ticketimg span.b').click(function() {
-        $('#ticket form #temps').html('2 DAY');
-        $('#ticket form #prix').html('80$');
+        $('#ticket .form #temps').html('2 DAY');
+        $('#ticket .form #prix').html('80$');
     });
 
     $('#ticket #ticketimg span.c').click(function() {
-        $('#ticket form #temps').html('1 DAY');
-        $('#ticket form #prix').html('42$');
+        $('#ticket .form #temps').html('1 DAY');
+        $('#ticket .form #prix').html('42$');
     });
 
     $('#ticket #ticketimg span.d').click(function() {
-        $('#ticket form #temps').html('2 DAY');
-        $('#ticket form #prix').html('90$');
+        $('#ticket .form #temps').html('2 DAY');
+        $('#ticket .form #prix').html('90$');
     });
 
     $('#ticket #ticketimg span.e').click(function() {
-        $('#ticket form #temps').html('1 DAY');
-        $('#ticket form #prix').html('100$');
+        $('#ticket .form #temps').html('1 DAY');
+        $('#ticket .form #prix').html('100$');
     });
 });
