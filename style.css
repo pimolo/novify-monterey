@@ -58,6 +58,7 @@ header img:nth-child(2) {
 header img:nth-child(n+3) {
     display: block;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 section {
@@ -78,6 +79,7 @@ section {
     vertical-align: middle;
     padding-top: 20px;
     width: 160px;
+    color: white;
 }
 
 #leftcircle {
@@ -155,6 +157,7 @@ section .title img {
     font-size: 22px;
     color: #f1be6d;
 }
+
 .sentences {
     display: block;
     margin: 47px 0 0 10px;
@@ -171,8 +174,8 @@ section .title img {
 .abonnement {
     font-family: 'Orator Std';
     width: 500px;
-    margin: 0 auto;
     margin-top: 310px;
+    margin-left: 70px;
     font-size: 16px;
 }
 
@@ -430,6 +433,17 @@ section .title img {
 
 /*Fin caroussel*/
 
+.radio {
+    margin-left: 610px;
+    margin-top: 40px;
+}
+
+.video {
+    margin-left: 15px;
+    margin-top: -145px;
+    margin-bottom: 30px;
+}
+
 /*Footer*/
 footer{
     margin-top:10px;
@@ -439,22 +453,28 @@ footer{
 /*liens*/
 .lien-footer{
     width:100%;
-    font-family: 'Orator Std';
+    font-family: Orator Std;
     text-decoration: none;
+    position:relative;
 }
 .lien-footer a{
-    font-size: 30px;
+    font-size: 45px;
     color:white;
     text-decoration: none;
-    padding-top: 30px;
+}
+.lien-footer .f-2 a{
+    /*position:absolute;
+    padding-top: 15px;*/
+
 }
 .lien-footer a:hover{
     text-shadow:  1px 1px 12px black;
     text-decoration: none;
 }
 .f-1{
+    padding-top:9px;
     background-color: rgb(155,192,149);
-    height:79px;
+    height:70px;
 }
 .f-2{
     background-color: rgb(189,183,61);
@@ -465,8 +485,9 @@ footer{
     height:90px;
 }
 .f-4{
+    padding-top:10px;
     background-color: rgb(220,50,77);
-    height:86px;
+    height:76px;
 }
 /*Images*/
 footer .img-f-right{
@@ -476,8 +497,7 @@ footer .img-f-right{
 }
 
 footer .img-f-left{
-    margin-top:-1px;
-    width:500px;
+    width: 500px;
     float: left;
     margin-left: -1012px;
     position: absolute;
@@ -551,16 +571,5 @@ footer .img-f-left{
 .ago:hover {
     background: url("nav.png") -29px -560px no-repeat;
 }
-.radio {
-    margin-left: 610px;
-    margin-top: 40px;
 
-
-}
-
-.video {
-    margin-left: 15px;
-    margin-top: -145px;
-    margin-bottom: 30px;
-}
 
