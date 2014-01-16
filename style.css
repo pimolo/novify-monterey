@@ -8,7 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Fonts*/
 
 @font-face {
     font-family: 'OratorStd';
@@ -169,6 +168,19 @@ section .title img {
     color: #f1be6d;
 }
 
+.abonnement {
+    font-family: 'Orator Std';
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 310px;
+    font-size: 16px;
+}
+
+.subscribe {
+    background-color: orange;
+    color: white;
+}
+
 .block {
     width: 100px;
     height: 70px;
@@ -179,7 +191,7 @@ section .title img {
 .button {
     width: 145px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10%;
     background-color: #ddf0ef;
     display: inline-block;
     margin-right: 5px;
@@ -191,13 +203,14 @@ section .title img {
     font-family: 'OratorStd';
     font-size: 23px;
     color: #95cacd;
+    padding-top: 5px;
 }
 
 .ligne1 {
     width: 785px;
     height: 61px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .ligne2 {
@@ -450,9 +463,9 @@ footer .img-f-left{
 
 .sprite {
     display: block;
-    width: 180px;
-    height: 55px;
-    margin-left: -115px;
+    width: 300px;
+    height: 90px;
+    margin-left: -195px;
     transition: margin-left 0.5s;
 }
 
@@ -461,59 +474,59 @@ footer .img-f-left{
 }
 
 .home {
-    background: url("images/navigation.png") -250px -30px no-repeat;
+    background: url("nav.png") -396px -20px no-repeat;
 }
 
 .home:hover {
-    background: url("images/navigation.png") -30px -30px no-repeat;
+    background: url("nav.png") -29px -20px no-repeat;
 }
 
 .news {
-    background: url("images/navigation.png") -250px -85px no-repeat;
+    background: url("nav.png") -396px -110px no-repeat;
 }
 
 .news:hover {
-    background: url("images/navigation.png") -29px -85px no-repeat;
+    background: url("nav.png") -29px -110px no-repeat;
 }
 
 .artists {
-    background: url("images/navigation.png") -250px -140px no-repeat;
+    background: url("nav.png") -396px -200px no-repeat;
 }
 
 .artists:hover {
-    background: url("images/navigation.png") -29px -140px no-repeat;
+    background: url("nav.png") -29px -200px no-repeat;
 }
 
 .programming {
-    background: url("images/navigation.png") -250px -195px no-repeat;
+    background: url("nav.png") -396px -290px no-repeat;
 }
 
 .programming:hover {
-    background: url("images/navigation.png") -29px -195px no-repeat;
+    background: url("nav.png") -29px -290px no-repeat;
 }
 
 .ticket {
-    background: url("images/navigation.png") -250px -250px no-repeat;
+    background: url("nav.png") -396px -380px no-repeat;
 }
 
 .ticket:hover {
-    background: url("images/navigation.png") -29px -250px no-repeat;
+    background: url("nav.png") -29px -380px no-repeat;
 }
 
 .store {
-    background: url("images/navigation.png") -250px -305px no-repeat;
+    background: url("nav.png") -396px -470px no-repeat;
 }
 
 .store:hover {
-    background: url("images/navigation.png") -29px -305px no-repeat;
+    background: url("nav.png") -29px -470px no-repeat;
 }
 
 .ago {
-    background: url("images/navigation.png") -250px -360px no-repeat;
+    background: url("nav.png") -396px -560px no-repeat;
 }
 
 .ago:hover {
-    background: url("images/navigation.png") -29px -360px no-repeat;
+    background: url("nav.png") -29px -560px no-repeat;
 }
 .radio {
     margin-left: 610px;
@@ -528,11 +541,6 @@ footer .img-f-left{
     margin-bottom: 30px;
 }
 
-.abonnement {
-    font-family: 'Oratori Std';
-    color: #F19D17;
-    margin-top: 310px;
-    margin-left: 20px;
-}
+
 
 

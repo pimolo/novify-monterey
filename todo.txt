@@ -1,11 +1,11 @@
 - Images caroussel DONE
 - Pictos bandes titres DONE
-- Nav À PEAUFINER
-- Bug scroll à cause de l'image de droite du footer (trop de mal, abandonné)
+- Nav DONE
+- Bug scroll à cause de l'image de droite du footer (trop de mal, ABANDONNÉ CONNARD)
 - Cadres du haut DONE
-- Liens footer
+- Liens footer (rose nam ?)
 - Mettre en forme les boutons d'onglets Gaëtan DONE
-- Mettre en forme le RSS
+- Mettre en forme le RSS (narjiss ?)
 - Cercles du haut à remplir (ALIGNEMENT À CORRIGER)
 (- Écrire quelque chose tout en haut qui invite à scroll)
 - Nuage de mots-clés ? (tagcloud)
@@ -13,5 +13,6 @@
 - Légendes hover (infobulle)
 - Affordance pour le ticket
 - Formulaire Rose-Nam EN COURS
+- Police des textes du haut
 
-!!!!!!!!! FAIRE UN COMMIT ?? !!!!!!!!!!!!
+----->Bannière history à revoir ensemble<-----
