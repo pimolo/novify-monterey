@@ -9,6 +9,7 @@
     <!-- <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>-->
     <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
     <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+
 </head>
 <body>
 
@@ -138,20 +139,36 @@
             </div>
         </section>
         <section id="ticket">
-            <div class="title"><span>Ticket office</span><img src="images/tags.png" alt=""></div>
-                <form>
-                    Vous êtes : <select name="genre_u">
-                    <option value="M"> M. </option>
-                    <option value="F"> Mme </option>
-                    <option value="Mlle"> Mlle </option>
-                    </select><br/>
-                    Nom : <input type="text" id="nom" /><br/>
-                    Prénom : <input type="text" id="prenom" /><br/>
-                    Âge : <input type="text" id="age" /><br/>
-                    <input type="submit" id="valider" />
-                    <span id="prix"></span>
-                    <span id="temps"></span>
-                </form>
+	<div class="title"><span>Ticket office</span><img src="images/tags.png" alt=""></div>
+	<div class="form">
+	     <div class="information">
+		<div class="titre">
+	         Information de facturation
+	     	</div>
+	         Nom : <br /><input type="text" name="nom"/><br />
+	         Prénom : <br /><input type="text" name="prenom"/><br />
+		 Adresse Email :<br /><input type="text" name="email"><br />
+	     </div>
+	    <div class="paiement">
+	    <div class="titre">
+	        Payer par carte bancaire <br />
+	    </div>
+	        Country : <select name="pays">
+	        <option value="1">pays 1</option>
+	        <option value="2">pays 2</option>
+	        <option value="3">pays 3</option>
+		        </select><br />
+	        Type de paiement : 
+	        <input type="radio" name="carte"/><img src="picto-1.png"/>
+	        <input type="radio" name="carte"/><img src="picto-2.png"/>
+	        <input type="radio" name="carte"/><img src="picto-3.png"/><br />
+                Numéro de carte : <input type="text" name="numero-carte"><br />
+	        Cryptogramme visuel : <input type="text" name="crypto"><br />
+	        Date d'expiration : <input type="text" name="date"> / <input type="text" name="date"><br />
+		<br />
+		<input type="submit" value="valider" />
+	    </div>
+	    </div>
             <div id="ticketimg">
                 <span class="a" title="Click to buy it !">1 DAY</span>
                 <span class="b" title="Click to buy it !">2 DAYS</span>

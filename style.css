@@ -288,11 +288,34 @@ section .title img {
     z-index: 1000;
 }
 
-#ticket form {
+#ticket .form {
     position: absolute;
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-top: 40px;
+    margin-left: 80px;
     z-index: 1;
+}
+
+
+.titre {
+    width: 300px;
+    height: 40px;
+    background-image: url("ruban-titre.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    text-align: center;
+    right: 15px;
+    margin-top: 12px;
+}
+
+.information {
+    margin-left: 70px;
+}
+
+.paiement {
+    width: 440px;
+    height: 260px;
+    margin-left: 400px;
+    margin-top: -183px;
 }
 
 .a {
@@ -548,8 +571,5 @@ footer .img-f-left{
 .ago:hover {
     background: url("nav.png") -29px -560px no-repeat;
 }
-
-
-
 
 
