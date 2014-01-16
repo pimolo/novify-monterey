@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    $('#news .abonnement .subscribe').click(function() {
+        $('form').after("<p>Your email has been registered !</p>");
+        $('.abonnement p:nth-last-child(2)').css("font-family", "Arial");
+    });
+});
+
 $(document).ready(function() { // Onglets artistes
     $('#artists .artistbox').hide();
     $('#artists #muse').show();
