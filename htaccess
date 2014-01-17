@@ -1,0 +1,13 @@
+AuthUserFile /home/etudiants/mmi13a10/public_html/novify(nom_du_site)/htpasswd
+
+AuthGroupFile /dev/null
+
+AuthName "Acces securise a mon site"
+
+AuthType Basic
+
+<LIMIT GET POST>
+
+Require valid-user
+
+</LIMIT>
