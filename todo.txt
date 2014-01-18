@@ -1,7 +1,7 @@
 - Images caroussel DONE
 - Pictos bandes titres DONE
 - Nav DONE
-- Bug scroll à cause de l'image de droite du footer (trop de mal, ABANDONNÉ CONNARD)
+- Bug scroll à cause de l'image de droite du footer (trop de mal, ABANDONNÉ)
 - Cadres du haut DONE
 - Liens footer rose nam DONE
 - Partenaires (rose nam) DONE

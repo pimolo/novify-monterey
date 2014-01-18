@@ -139,34 +139,25 @@
             <div class="title"><span>Ticket office</span><img src="images/tags.png" alt=""></div>
             <div class="longshape top">Make your choice and click on to buy it !</div>
             <div class="form">
-	     <div class="information">
-		<div class="titre">
-	         Information de facturation
-	     	</div>
-	         Nom : <br /><input type="text" name="nom"/><br />
-	         Prénom : <br /><input type="text" name="prenom"/><br />
-		 Adresse Email :<br /><input type="text" name="email"><br />
-	     </div>
-	    <div class="paiement">
-	    <div class="titre">
-	        Payer par carte bancaire <br />
-	    </div>
-	        <!-- Country : <select name="pays">
-	        <option value="1">pays 1</option>
-	        <option value="2">pays 2</option>
-	        <option value="3">pays 3</option>
-		        </select><br /> -->
-                    <span id="temps"></span>
-                    <span id="prix"></span><br />
-	        Type de paiement :
-	        <input type="radio" id="mc"/><label for="mc"><img src="picto-1.png"/></label>
-	        <input type="radio" id="pp"/><label for="pp"><img src="picto-2.png"/></label>
-	        <input type="radio" id="visa"/><label for="visa"><img src="picto-3.png"/></label><br />
-                Numéro de carte : <input type="text" name="numero-carte"><br />
-	        Cryptogramme visuel : <input type="text" name="crypto"><br />
-	        Date d'expiration : <input type="text" name="date"> / <input type="text" name="date"><br />
-		<br />
-		<input type="submit" value="valider" />
+                <div class="information">
+                    <div class="titre">Payement Method</div>
+                    First Name : <br /><input type="text" name="nom"/><br />
+                    Last Name : <br /><input type="text" name="prenom"/><br />
+                    E-mail adress :<br /><input type="text" name="email"><br />
+                </div>
+                <div class="paiement">
+                    <div class="titre">Card Details</div>
+                        <span id="temps"></span>
+                        <span id="prix"></span><br />
+    	        Credit Card :
+    	        <input type="radio" id="mc"/><label for="mc"><img src="picto-1.png"/></label>
+    	        <input type="radio" id="pp"/><label for="pp"><img src="picto-2.png"/></label>
+    	        <input type="radio" id="visa"/><label for="visa"><img src="picto-3.png"/></label><br />
+                    Card Number : <input type="text" name="numero-carte"><br />
+    	        CV2 Number : <input type="text" name="crypto"><br />
+    	        Card Expiry Date : <input type="text" name="date"> / <input type="text" name="date"><br />
+    		<br />
+    		<input type="submit" value="purchase" />
 	    </div>
 	    </div>
             <div id="ticketimg">

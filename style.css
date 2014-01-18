@@ -327,6 +327,7 @@ section .title img {
     margin-top: 40px;
     margin-left: 80px;
     z-index: 1;
+    font-family: 'Groovy-Baby';
 }
 
 .titre {
@@ -348,7 +349,7 @@ section .title img {
     width: 440px;
     height: 260px;
     margin-left: 400px;
-    margin-top: -183px;
+    margin-top: -169px;
 }
 
 .a {
