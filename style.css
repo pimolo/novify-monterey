@@ -307,7 +307,7 @@ section .title img {
 .titre {
     width: 300px;
     height: 40px;
-    background-image: url("ruban-titre.png");
+    background-image: url("images/ruban-titre.png");
     background-size: 100% 60%;
     background-repeat: no-repeat;
     text-align: center;
@@ -530,57 +530,57 @@ footer .img-f-left{
 }
 
 .home {
-    background: url("nav.png") -396px -20px no-repeat;
+    background: url("images/nav.png") -396px -20px no-repeat;
 }
 
 .home:hover {
-    background: url("nav.png") -29px -20px no-repeat;
+    background: url("images/nav.png") -29px -20px no-repeat;
 }
 
 .news {
-    background: url("nav.png") -396px -110px no-repeat;
+    background: url("images/nav.png") -396px -110px no-repeat;
 }
 
 .news:hover {
-    background: url("nav.png") -29px -110px no-repeat;
+    background: url("images/nav.png") -29px -110px no-repeat;
 }
 
 .artists {
-    background: url("nav.png") -396px -200px no-repeat;
+    background: url("images/nav.png") -396px -200px no-repeat;
 }
 
 .artists:hover {
-    background: url("nav.png") -29px -200px no-repeat;
+    background: url("images/nav.png") -29px -200px no-repeat;
 }
 
 .programming {
-    background: url("nav.png") -396px -290px no-repeat;
+    background: url("images/nav.png") -396px -290px no-repeat;
 }
 
 .programming:hover {
-    background: url("nav.png") -29px -290px no-repeat;
+    background: url("images/nav.png") -29px -290px no-repeat;
 }
 
 .ticket {
-    background: url("nav.png") -396px -380px no-repeat;
+    background: url("images/nav.png") -396px -380px no-repeat;
 }
 
 .ticket:hover {
-    background: url("nav.png") -29px -380px no-repeat;
+    background: url("images/nav.png") -29px -380px no-repeat;
 }
 
 .store {
-    background: url("nav.png") -396px -470px no-repeat;
+    background: url("images/nav.png") -396px -470px no-repeat;
 }
 
 .store:hover {
-    background: url("nav.png") -29px -470px no-repeat;
+    background: url("images/nav.png") -29px -470px no-repeat;
 }
 
 .ago {
-    background: url("nav.png") -396px -560px no-repeat;
+    background: url("images/nav.png") -396px -560px no-repeat;
 }
 
 .ago:hover {
-    background: url("nav.png") -29px -560px no-repeat;
+    background: url("images/nav.png") -29px -560px no-repeat;
 }
