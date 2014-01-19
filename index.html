@@ -5,14 +5,10 @@
     <title>Monterey Pop Festival's 50th birthday</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
-    <!-- <script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>-->
-    <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
-    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
-
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /> <!-- for the carousel controls -->
+    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" /> <!-- for the image gallery -->
 </head>
 <body>
-
     <div id="wrapper">
         <header id="home">
             <img src="images/header-left.png" alt="awesome left thing" />
@@ -34,15 +30,14 @@
                 <div class="sentences"><span>Hôtel - Camping</span><p>5000 camping spots near the festival ! <br />Reserve a spot, call 555 678 !<br />More than 50 hotels : <a href="http://www.hotels.com">hotels.com</a></p></div>
             </div>
             <div class="abonnement">
-            <div id="newsletter">
-                <p>All our latest news delivered in your inbox!<br />Subscribe to our newsletter</p>
-                <form>
-                <input type="text" placeholder="Your email address" size="40" maxlength="40" />
-                <input type="submit" value="Subscribe" class="subscribe" />
-                </form>
-            </div>
-
-            <p class="rss">Get updates informations about the festival by subscribing to our RSS feeds!<a href="news.xml"><img src="images/rss.png" alt="rss" width="30px" /></a></p>
+                <div id="newsletter">
+                    <p>All our latest news delivered in your inbox!<br />Subscribe to our newsletter</p>
+                    <form>
+                    <input type="text" placeholder="Your email address" size="40" maxlength="40" />
+                    <input type="submit" value="Subscribe" class="subscribe" />
+                    </form>
+                </div>
+                <p class="rss">Get updates informations about the festival by subscribing to our RSS feeds!<a href="news.xml"><img src="images/rss.png" alt="rss" width="30px" /></a></p>
             </div>
         </section>
         <section id="artists">
@@ -50,14 +45,16 @@
             <div class="ligne2"><div class="button" data-toggle="nj"><span>Norah<br />Jones</span></div>
                 <div class="button" data-toggle="lg"><span>London<br />Grammar</span></div>
                 <div class="button" data-toggle="aa"><span>Asaf<br />Avidan</span></div>
-                <div class="button" data-toggle="ja"><span>James<br />Arthur</span></div></div>
+                <div class="button" data-toggle="ja"><span>James<br />Arthur</span></div>
+            </div>
             <div class="ligne1">
                 <div class="button" data-toggle="bs"><span>Bruce</span><br /><span style="letter-spacing: -2px;">Springsteen</span></div>
                 <div class="button" data-toggle="pf"><span>Pink<br />Floyd</span></div>
                 <div class="button" data-toggle="jm"><span>John<br />Mayer</span></div>
                 <div class="button" data-toggle="ds"><span>Dire</span><br/><span>Straits</span></div>
-                <div class="button" data-toggle="muse"><span>Muse<br />&nbsp</span></div></div>
-                <div class="artistbox" id="muse">
+                <div class="button" data-toggle="muse"><span>Muse<br />&nbsp</span></div>
+            </div>
+            <div class="artistbox" id="muse">
                 <img src="images/muse.jpg" alt="muse">
                 <div class="info">
                     <p>Muse are an English rock band from Teignmouth, Devon formed in 1994 by <br />Matthew Bellamy, Christopher Wolstenholme and Dominic Howard.</p>
@@ -90,8 +87,7 @@
             <div class="artistbox" id="ds">
                 <img src="images/ds.jpg" alt="ds" />
                 <div class="info">
-                    <p>Dire Straits were a British rock band, formed in 1977 by Mark Knopfler, his younger brother David Knopfler, John Illsley, and
-		    Pick Withers. They’re reuniting to celebrate the festival’s 50’ anniversary.</p>
+                    <p>Dire Straits were a British rock band, formed in 1977 by Mark Knopfler, his younger brother David Knopfler, John Illsley, and Pick Withers. They’re reuniting to celebrate the festival’s 50’ anniversary.</p>
                 </div>
                 <div class="info"><audio src="musics/ds.mp3" controls preload="none"></audio></div>
             </div>
@@ -114,7 +110,7 @@
             <div class="artistbox" id="aa">
                 <img src="images/aa.jpg" alt="aa" />
                 <div class="info">
-                     <p>Asaf Avidan is an Israeli singer-songwriter and musician.</p>
+                    <p>Asaf Avidan is an Israeli singer-songwriter and musician.</p>
                     <p>He’s the front-man of Asaf Avidan & the Mojos, an Israeli folk rock band, but is mostly known for his solo career.</p>
                 </div>
                 <div class="info"><audio src="musics/aa.mp3" controls preload="none"></audio></div>
@@ -128,11 +124,11 @@
             </div>
         </section>
         <section id="programming">
-            <div class="title"><span>Programming</span><img src="images/clock.png" alt=""></div>
+            <div class="title"><span>Programming</span><img src="images/clock.png" alt="clock"></div>
             <div id="posters">
-		<a href="images/affiche1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche1.jpg" alt="22june"></a>
-		<a href="images/affiche2.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche2.jpg" alt="23june" class="middle"></a>
-		<a href="images/affiche3.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche3.jpg" alt="24june"></a>
+        <a href="images/affiche1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche1.jpg" alt="22june"></a>
+        <a href="images/affiche2.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche2.jpg" alt="23june" class="middle"></a>
+        <a href="images/affiche3.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/affiche3.jpg" alt="24june"></a>
             </div>
         </section>
         <section id="ticket">
@@ -141,25 +137,24 @@
             <div class="form">
                 <div class="information">
                     <div class="titre">Payement Method</div>
-                    First Name : <br /><input type="text" name="nom"/><br />
-                    Last Name : <br /><input type="text" name="prenom"/><br />
-                    E-mail adress :<br /><input type="text" name="email"><br />
-                </div>
+                        First Name : <br /><input type="text" name="nom" /><br />
+                        Last Name : <br /><input type="text" name="prenom" /><br />
+                        E-mail adress :<br /><input type="text" name="email" /><br />
+                    </div>
                 <div class="paiement">
                     <div class="titre">Card Details</div>
-                        <span id="temps"></span>
-                        <span id="prix"></span><br />
-    	        Credit Card :
-    	        <input type="radio" id="mc"/><label for="mc"><img src="picto-1.png"/></label>
-    	        <input type="radio" id="pp"/><label for="pp"><img src="picto-2.png"/></label>
-    	        <input type="radio" id="visa"/><label for="visa"><img src="picto-3.png"/></label><br />
-                    Card Number : <input type="text" name="numero-carte"><br />
-    	        CV2 Number : <input type="text" name="crypto"><br />
-    	        Card Expiry Date : <input type="text" name="date"> / <input type="text" name="date"><br />
-    		<br />
-    		<input type="submit" value="purchase" />
-	    </div>
-	    </div>
+                    <span id="temps"></span>
+                    <span id="prix"></span><br />
+                    Credit Card :
+                    <input type="radio" id="mc"/><label for="mc"><img src="images/picto-1.png" /></label>
+                    <input type="radio" id="pp"/><label for="pp"><img src="images/picto-2.png" /></label>
+                    <input type="radio" id="visa"/><label for="visa"><img src="images/picto-3.png" /></label><br />
+                    Card Number : <input type="text" name="numero-carte" /><br />
+                    CV2 Number : <input type="text" name="crypto" /><br />
+                    Card Expiry Date : <input type="text" name="date" placeholder="month"> / <input type="text" name="date" placeholder="year" /><br /><br />
+                    <input type="submit" value="Purchase" />
+                </div>
+            </div>
             <div id="ticketimg">
                 <span class="a" title="Click to buy it !">1 DAY</span>
                 <span class="b" title="Click to buy it !">2 DAYS</span>
@@ -177,7 +172,6 @@
                 <div class="circle"><a href="images/badge.png" class="highslide" onclick="return hs.expand(this)"><img src="images/badge.png" alt="badge" class="badge" /></a></div>
                 <div class="circle"><a href="images/storeposter.png" class="highslide" onclick="return hs.expand(this)"><img src="images/storeposter.png" alt="poster" class="poster" /></a></div>
             </div>
-
         </section>
         <section id="ago">
             <div class="title"><span>50 years ago</span><img src="images/rewind.png" alt=""></div>
@@ -192,18 +186,19 @@
                 <i class="fa fa-chevron-circle-left left"></i>
                 <i class="fa fa-chevron-circle-right right"></i>
             </div>
-	 <div class="radio"> <object width="400" height="140"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="400" height="140"></embed></object></div>
-	 <div class="video"><object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
+            <div class="radio"> <object width="400" height="140"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=ffffff&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" /><param name="wmode" value="transparent" /><embed src="http://static.radionomy.com/flash/BannerEmbed.swf?RadUID=e53afc20-5d95-4a21-95c7-3c6fcd7b45df&amp;titlesColor=&amp;color=f6efd3&amp;autoPlay=no&amp;lang=fr" wmode="transparent" type="application/x-shockwave-flash" allowscriptaccess="always" width="400" height="140"></embed></object></div>
+            <div class="video"><object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/HWU9nNT1oUQ?version=3&amp;hl=fr_FR" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
         </section>
-            <footer>
-        <img class="img-f-left" src="images/footer-left.png"/>
-        <img class="img-f-right" src="images/footer-right.png"/>
+        <footer>
+            <img class="img-f-left" src="images/footer-left.png"/>
+            <img class="img-f-right" src="images/footer-right.png"/>
             <div class="lien-footer">
                 <div class="f-1">
                     <a href="#"><img src="images/twitter.png" width="60px" height="60px"></a>
                     <a href="#"><img src="images/facebook.png" width="60px" height="60px"></a>
                     <a href="#"><img src="images/youtube.png" width="60px" height="60px"></a>
-                    <a href="#"><img src="images/vimeo.png" width="60px" height="60px"></a></div>
+                    <a href="#"><img src="images/vimeo.png" width="60px" height="60px"></a>
+                </div>
                 <div class="f-2"><a href="#">Contact us</a></div>
                 <div class="f-3"><a href="http://195.83.128.55/~mmi13a03/novify/accueil.html">Our Agency</a></div>
                 <div class="f-4">
@@ -217,7 +212,7 @@
                     <a href="#"><img src="images/guitar.png"></a>
                 </div>
             </div>
-    </footer>
+        </footer>
     </div>
     <nav>
         <a href="#home" class="sprite home"></a>
@@ -228,10 +223,9 @@
         <a href="#store" class="sprite store"></a>
         <a href="#ago" class="sprite ago"></a>
     </nav>
-
-    <script type="text/javascript" src="jquery-1.10.2.js" ></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js" ></script>
     <script type="text/javascript" src="script.js" ></script>
-    <script type="text/javascript"> //Pour un scroll lent entre les liens
+    <script type="text/javascript"> // For the smooth scroll
         $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -247,21 +241,11 @@
             });
         });
     </script>
-   <!--<script type="text/javascript">
-      // override Highslide settings here
-      // instead of editing the highslide.js file
+    <script type="text/javascript" src="highslide/highslide-with-html.js"></script> <!-- for the image gallery -->
+    <script type="text/javascript"> // For the image gallery
     hs.graphicsDir = 'highslide/graphics/';
-    hs.align = 'center';
-    hs.transitions = ['expand', 'crossfade'];
     hs.outlineType = 'rounded-white';
-    hs.fadeInOut = true;
-    hs.numberPosition = 'caption';
-    hs.dimmingOpacity = 0.75;
-</script>-->
-    <script type="text/javascript">
-	hs.graphicsDir = 'highslide/graphics/';
-	hs.outlineType = 'rounded-white';
-	hs.wrapperClassName = 'draggable-header';
+    hs.wrapperClassName = 'draggable-header';
     </script>
 </body>
 </html>

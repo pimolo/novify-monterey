@@ -86,7 +86,7 @@ $(document).ready(function() {
     });
 
     $('#ticket #ticketimg span.e').click(function() {
-        $('#ticket .form #temps').html('1 DAY');
+        $('#ticket .form #temps').html('3 DAY');
         $('#ticket .form #prix').html('100$');
     });
 });

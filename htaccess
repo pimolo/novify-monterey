@@ -1,4 +1,4 @@
-AuthUserFile /home/etudiants/mmi13a10/public_html/novify(nom_du_site)/htpasswd
+AuthUserFile /home/etudiants/mmi13a03/public_html/novify/livrables/monterey/htpasswd
 
 AuthGroupFile /dev/null
 

@@ -81,16 +81,8 @@ section {
     margin-top: 40px;
 }
 
-#lightcircle {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    background-color: #ddf0ef;
-}
-
 .newstext {
     display: inline-block;
-    /*vertical-align: middle;*/
     padding-top: 30px;
     width: 180px;
     color: white;
@@ -100,40 +92,22 @@ section {
     letter-spacing: 0.8px;
 }
 
-#leftcircle {
+#cercles div {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    /*margin-left: 100px;*/
-    background-color: #95cacd;
     vertical-align: middle;
     margin: 0 50px 0 50px;
+}
+
+#leftcircle, #rightcircle {
+    background-color: #95cacd;
 }
 
 #middlecircle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    /*margin-left: 100px;*/
     background-color: #f1be6d;
-    vertical-align: middle;
-    margin: 0 50px 0 50px;
-}
-
-#rightcircle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    /*margin-left: 100px;*/
-    background-color: #95cacd;
-    vertical-align: middle;
-    margin: 0 50px 0 50px;
 }
 
 section .title {
@@ -352,6 +326,10 @@ section .title img {
     margin-top: -169px;
 }
 
+.paiement span {
+    width: 50px;
+}
+
 .a {
     position: absolute;
     margin: 135px 0 0 145px;
@@ -428,12 +406,7 @@ section .title img {
     margin: 15px 25px 0 0;
 }
 
-#store .circle img.tshirt {
-    width: 150px;
-    margin: 15px 0 0 15px;
-}
-
-#store .circle img.badge {
+#store .circle img.tshirt, #store .circle img.badge {
     width: 150px;
     margin: 15px 0 0 15px;
 }
@@ -488,7 +461,7 @@ section .title img {
 }
 
 /*Footer*/
-footer{
+footer {
     margin-top:10px;
     margin-bottom: 0px;
     text-align:center;
@@ -498,22 +471,19 @@ footer{
     width:100%;
     font-family: Orator Std;
     text-decoration: none;
-    position:relative;
 }
+
 .lien-footer a{
     font-size: 45px;
     color:white;
     text-decoration: none;
 }
-.lien-footer .f-2 a{
-    /*position:absolute;
-    padding-top: 15px;*/
 
-}
 .lien-footer a:hover{
     text-shadow:  1px 1px 12px black;
     text-decoration: none;
 }
+
 .f-1{
     padding-top:9px;
     background-color: rgb(155,192,149);
@@ -614,5 +584,3 @@ footer .img-f-left{
 .ago:hover {
     background: url("nav.png") -29px -560px no-repeat;
 }
-
-
